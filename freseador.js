@@ -1,5 +1,4 @@
-const proxy = 'http://alloworigin.com/get?url=';
-const url = `${proxy}https://positive-vibes-api.herokuapp.com/quotes/random`;
+const url = `https://positive-vibes-api.herokuapp.com/quotes/random`;
 //'';
 
 fetch(url,{
