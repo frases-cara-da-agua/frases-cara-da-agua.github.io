@@ -3,11 +3,8 @@ const url = `https://positive-vibes-api.herokuapp.com/quotes/random`;
 
 fetch(url,{
     method: 'GET',
-    mode: 'cors',
     headers: new Headers({
-        'Access-Control-Allow-Origin': '*',
-        'Content-Type':  'application/json',
-        'dataType': 'jsonp'
+        'Content-Type':  'application/json'
     })
 }).then(function(response) {
     return response.json();
