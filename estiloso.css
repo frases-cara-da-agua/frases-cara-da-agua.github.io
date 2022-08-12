@@ -1,0 +1,19 @@
+html{
+    font-family: 'Karla', sans-serif;
+    color: #ffffff;
+  }
+  
+h1, h2, h3, h4{
+    font-weight: bold;
+  }
+
+.frase{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.wraper{
+    text-align: center;
+    padding-top: 12rem;
+}
+
